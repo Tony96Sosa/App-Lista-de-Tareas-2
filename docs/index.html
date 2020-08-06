@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aplicación de Lista de Tareas</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Navegación -->
-    <nav class="navbar  navbar-light bg-light">
+    <nav class="navbar navbar-dark colorNavbar">
         <div class="container">
-          <a class="navbar-brand" href="#">Aplicación de Tareas</a>
+          <a class="navbar-brand h1" href="#">Aplicación de Tareas</a>
         </div>
     </nav>
     <!-- Contenido Principal -->
@@ -18,13 +19,13 @@
         <div class="row pt-5">
             <div class="col-md-4">
                 <div class="card mb-3">
-                    <div class="card-body">
+                    <div class="card-body ">
                         <form id="formTask">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="title" placeholder="Agregue una tarea">
+                                <input type="text" class="form-control" id="title" placeholder="Agregar una tarea">
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" id="description" rows="5" placeholder="Agregue una descripcion"></textarea>
+                                <textarea class="form-control" id="description" rows="5" placeholder="Agregar una descripción"></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary btn-block">Guardar Tarea</button>
                         </form>
